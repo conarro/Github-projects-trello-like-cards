@@ -48,7 +48,7 @@ chrome.storage.sync.get(settings, function(items){
   }
 });
 
-var cardClasses = ".issue-card h5 > a, .project-card h5 > a";
+var cardClasses = ".issue-card > a, .project-card > a";
 var urlBase = "https://github.com";
 
 var cardModal = '<div class="modal" style="display: none"></div>';
